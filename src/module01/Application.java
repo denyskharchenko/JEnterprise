@@ -11,7 +11,7 @@ public class Application {
     public static void main(String[] args) throws IOException {
         System.out.println("Java Enterprise. Module #1 \n");
 
-        int elements = 1_000_000;
+        int elements = 10_000;
         int tests = 100;
 
         String fileName = "result_" + elements + ".txt";
