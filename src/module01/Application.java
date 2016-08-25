@@ -16,10 +16,10 @@ public class Application {
 
         String fileName = "result_" + elements + ".txt";
 
-        ArrayList arrayList = new ArrayList();
-        LinkedList linkedList = new LinkedList();
-        Set hashSet = new HashSet();
-        Set treeSet = new TreeSet();
+        List<Integer> arrayList = new ArrayList<>();
+        List<Integer> linkedList = new LinkedList<>();
+        Set<Integer> hashSet = new HashSet<>();
+        Set<Integer> treeSet = new TreeSet<>();
 
         CollectionsTimeTest timeTest = new CollectionsTimeTest();
 
